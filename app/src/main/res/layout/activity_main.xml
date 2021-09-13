@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/homepage"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <EditText
+        android:id="@+id/search_url_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/search_button_home"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@id/search_button_home"
+        android:background="@android:color/holo_green_dark"
+        android:ems="10"
+        android:hint="Search or Enter Url"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/search_button_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/holo_green_dark"
+        android:text="Search" />
+
+    <Button
+        android:id="@+id/facebook"
+        android:layout_width="110dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="200dp"
+        android:background="#AA0A5C"
+        android:layout_marginRight="15dp"
+        android:text="FaceBook"
+        android:textAllCaps="false"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/youtube"
+        android:layout_width="105dp"
+        android:layout_height="48dp"
+        android:layout_alignTop="@+id/facebook"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="130dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="Youtube" />
+
+    <Button
+        android:id="@+id/instagram"
+        android:layout_width="105dp"
+        android:layout_height="48dp"
+        android:layout_alignEnd="@+id/youtube"
+        android:layout_alignBottom="@+id/youtube"
+        android:backgroundTint="@android:color/holo_purple"
+        android:layout_marginEnd="-130dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:text="Instagram" />
+
+    <Button
+        android:id="@+id/google"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/instagram"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentStart="true"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:text="Google"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/snapChat"
+        android:layout_width="105dp"
+        android:layout_height="48dp"
+        android:layout_alignTop="@+id/google"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="118dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="SnapChat" />
+
+    <Button
+        android:id="@+id/yahoo"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/snapChat"
+        android:layout_alignBottom="@+id/snapChat"
+        android:layout_marginEnd="-130dp"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_marginRight="10dp"
+        android:textSize="16sp"
+        android:text="Yahoo" />
+
+
+
+
+
+
+</RelativeLayout>
